@@ -1,8 +1,8 @@
 const routes = {
-    404: "SPA/404.html",  // Caminho da página de erro 404
-    "SPA/": "/index.html", // Caminho da página inicial
-    "SPA/about": "/about.html", // Caminho da página "about"
-    "SPA/contato": "/contato.html" // Caminho da página "contato"
+    404: "/SPA/404.html",  // Caminho da página de erro 404
+    "/SPA/": "/index.html", // Caminho da página inicial
+    "/SPA/about": "/about.html", // Caminho da página "about"
+    "/SPA/contato": "/contato.html" // Caminho da página "contato"
 };
 
 const route = (event) => {
